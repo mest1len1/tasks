@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+* {
+    font-family: Impact, fantasy;
+}
+.g {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(7, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 10px;
+
+    width: 100%;
+}
+
+.i {
+    border: 0px solid rgb(1, 67, 67);
+    border-radius: 5px;
+    text-align: center;
+    background-color: aquamarine;
+    min-height: 70px;
+}
+.it {
+    background-color: cadetblue;
+    border: 0px solid black;
+    border-radius: 5px
+}
+
+.gt {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(7, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 10px;
+    position: fixed;
+    width: 100%;
+}
+.a {
+    background-color: crimson;
+}
