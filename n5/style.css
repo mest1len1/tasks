@@ -2,7 +2,7 @@
     display: grid;
     grid-template: 75px 1fr 80px / 1fr 5fr 1fr;
     gap: 10px;
-    min-height: 100vh;
+    min-height: 98vh;
     grid-template-areas: 
         "h h h"
         "n m a"

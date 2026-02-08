@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+* {
+    font-family: Impact, fantasy;
+}
+.g {
+    display: grid;
+    grid-template: 2fr 1fr 1fr 1fr / 1fr;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    min-height: 99vh;
+
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(0, 0, 0, 0.242);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+.header p {
+    margin-top: 10vh;
+}
+.main {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(0, 0, 0, 0.242);
+    border: 1px solid rgb(0, 0, 0);
+}
+.also {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(0, 0, 0, 0.242);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+.also * {
+    border: 1px solid rgb(0, 0, 0);
+}

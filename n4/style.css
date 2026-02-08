@@ -2,7 +2,7 @@
     display: grid;
     grid-template-rows: 100px 1fr 80px;
     gap: 10px;
-    min-height: 100vh;
+    min-height: 98vh;
 }
 .item {
     background-color: darkcyan;
